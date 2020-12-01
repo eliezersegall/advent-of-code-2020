@@ -1,5 +1,5 @@
 def main():
-    with open('D:\ztmDevelop\day1puzzle.txt','r') as string:
+    with open('day1puzzle.txt','r') as string:
         str = string.read()
     list = ['0']
     n = 0
