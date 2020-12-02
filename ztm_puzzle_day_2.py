@@ -1,5 +1,5 @@
 def main():
-    with open('D:\ztmDevelop\day2puzzle.txt','r') as string:
+    with open('day2puzzle.txt','r') as string:
         str = string.read()
     valid_counter_1 = 0
     valid_counter_2 = 0
