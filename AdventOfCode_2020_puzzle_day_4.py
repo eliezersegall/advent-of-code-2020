@@ -1,5 +1,5 @@
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day4input.txt','r') as string:
+    with open('day4input.txt','r') as string:
         str = string.read()
     list = str.split('\n\n')
     list_of_dicts = [] 
