@@ -1,5 +1,5 @@
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day5input.txt','r') as string:
+    with open('day5input.txt','r') as string:
         str = string.read()
     list = str.split('\n')
     max = 0
