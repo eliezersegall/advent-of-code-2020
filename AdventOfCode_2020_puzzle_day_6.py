@@ -1,5 +1,5 @@
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day6input.txt','r') as string:
+    with open('day6input.txt','r') as string:
         str = string.read()
     list = str.split('\n\n')
     part_1_sum = 0
