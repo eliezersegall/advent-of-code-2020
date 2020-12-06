@@ -20,7 +20,7 @@ def tree_encounter_count(slope, map):
     return (tree_counter)
 
 def main():
-    with open('D:\ztmDevelop\day3input.txt','r') as string:
+    with open('day3input.txt','r') as string:
         str = string.read()
     list = ['']
     counter = 0
