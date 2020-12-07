@@ -1,5 +1,5 @@
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day7input.txt','r') as string:
+    with open('day7input.txt','r') as string:
         file = string.read()
     list = file.splitlines()
     checked_containers = []
