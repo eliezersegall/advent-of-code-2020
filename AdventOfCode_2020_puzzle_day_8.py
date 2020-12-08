@@ -1,5 +1,5 @@
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day8input.txt','r') as string:
+    with open('day8input.txt','r') as string:
         file = string.read()
     commands_list = file.splitlines()
     for i in range(len(commands_list)):
