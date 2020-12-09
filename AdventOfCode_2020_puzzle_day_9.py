@@ -1,5 +1,5 @@
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day9input.txt','r') as string:
+    with open('day9input.txt','r') as string:
         file = string.read()
     numbers_list = file.splitlines()
     for i in range(len(numbers_list)):
