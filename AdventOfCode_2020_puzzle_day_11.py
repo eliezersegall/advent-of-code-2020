@@ -335,7 +335,7 @@ def diag_down_left_check(i_input, j_input, input_puzzle):
         return False
 
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day11input.txt','r') as string:
+    with open('day11input.txt','r') as string:
         file = string.read()
     input_list = file.splitlines()
     for i in range(len(input_list)):
