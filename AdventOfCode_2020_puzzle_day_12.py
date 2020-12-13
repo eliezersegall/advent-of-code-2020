@@ -184,7 +184,7 @@ def forward_instruction_multiplier_east_west_set(value, current_waypoint):
         return current_waypoint[1][1] * value * -1
 
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day12input.txt','r') as string:
+    with open('day12input.txt','r') as string:
         file = string.read()
     instruction_list = file.splitlines()
     north_south_set = 0
