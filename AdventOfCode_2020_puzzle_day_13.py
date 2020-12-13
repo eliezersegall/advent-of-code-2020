@@ -1,5 +1,5 @@
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day13input.txt','r') as string:
+    with open('day13input.txt','r') as string:
         file = string.read()
     two_lines = file.splitlines()
     earliest_timestamp = int(two_lines[0])
