@@ -42,7 +42,7 @@ def mask_change_part_2(current_mask, given_value):
     return list_of_adresses
 
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day14input.txt','r') as string:
+    with open('day14input.txt','r') as string:
         file = string.read()
     lines = file.splitlines()
     mask = ''
