@@ -7,7 +7,7 @@ def length_of_all_fields(fields_order_list):
     
 
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day16input.txt','r') as string:
+    with open('day16input.txt','r') as string:
         file = string.read()
     puzzle = file.split('\n\n')
     fields = puzzle[0].splitlines()
