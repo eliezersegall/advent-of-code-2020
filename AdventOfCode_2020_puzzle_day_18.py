@@ -104,7 +104,7 @@ def line_cal_part_2(current_line):
 
 
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day18input.txt','r') as string:
+    with open('day18input.txt','r') as string:
         file = string.read()
     lines = file.splitlines()
     lines =  line_clean(lines)
