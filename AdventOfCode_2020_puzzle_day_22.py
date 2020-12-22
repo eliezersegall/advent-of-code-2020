@@ -92,7 +92,7 @@ def game(part,player1,player2):
         return score          
                 
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day22input.txt','r') as string:
+    with open('day22input.txt','r') as string:
         file = string.read()
     deck1 = file.split('\n\n')[0].splitlines()[1:]
     deck2 = file.split('\n\n')[1].splitlines()[1:]
