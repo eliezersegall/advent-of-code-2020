@@ -89,7 +89,7 @@ def sea_monster_check(appearances, area):
     return fit
     
 def main():
-    with open('D:\ztmDevelop\AdventOfCode_2020\day20input.txt','r') as string:
+    with open('day20input.txt','r') as string:
         file = string.read()
     tiles = {}
     list_of_ids = []
