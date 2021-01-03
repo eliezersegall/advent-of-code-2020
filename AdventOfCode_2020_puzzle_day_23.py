@@ -40,7 +40,7 @@ def round(ring, current):
     return ring, next
     
 def main():
-    with open('C:\ztmDevelop\AdventOfCode_2020\day23input.txt','r') as string:
+    with open('day23input.txt','r') as string:
         file = string.read()
     cups = [int(i) for i in list(file)]
     for i in range(100):
