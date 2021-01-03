@@ -1,6 +1,6 @@
 from collections import defaultdict 
 def main():
-    with open('C:\ztmDevelop\AdventOfCode_2020\day21input.txt','r') as string:
+    with open('day21input.txt','r') as string:
         file = string.read()
     food = file.splitlines()
     for i, line in enumerate(food):
