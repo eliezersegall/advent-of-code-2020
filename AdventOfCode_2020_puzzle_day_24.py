@@ -5,7 +5,7 @@ def adjecant_tiles(tile_x, tile_y):
     return adjecants
 
 def main():
-    with open('C:\ztmDevelop\AdventOfCode_2020\day24input.txt','r') as string:
+    with open('day24input.txt','r') as string:
         file = string.read()
     instructions = file.splitlines()
     w = 'white'
